@@ -12,5 +12,6 @@ Please follow the steps to run the project:
 5. install npm
 
 Run the following command:
+
 5. npm install
 6. npm start
