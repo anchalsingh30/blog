@@ -9,6 +9,7 @@ Please follow the steps to run the project:
 2. clone or download the project on local machine
 3. open the project using any IDE
 4. open terminal
+5. cd projectname
 5. install npm
 
 Run the following command:
