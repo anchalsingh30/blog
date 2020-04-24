@@ -1,0 +1,62 @@
+
+// Primary colors
+//-----------------------------
+$blue:#3481CF;
+$navyblue: #283747;
+$lightblue: #5D6D7E;
+$grey: #EBEDEF;
+$white:#FFFFFF;
+$black:#000000;
+$gray:#7F7F7F;
+$red:#ff1755;
+$lightgrey: #e6e6e6;
+$darkgrey: #333;
+
+/* mixins */
+
+@mixin translateY($e){
+    -webkit-transform: translateY($e);
+    -moz-transform: translateY($e);
+        transform: translateY($e);
+}
+
+@mixin transition($e){
+    -webkit-transition: $e;
+    -moz-transition: $e;
+        transition: $e;
+}
+
+
+
+/*  // Font information
+    //-----------------------------
+$header-font-family: "Georgia", "Times New Roman", serif;
+$default-font-family: "HelveticaNeue", "Helvetica Neue", Helvetica,
+Arial, sans-serif;
+$default-browser-size: 16;
+$default-font-size: 14px;
+$font-color:    $darker-gray;
+$anchor-color: $darker-gray;
+*/
+
+
+
+a{
+    text-decoration: none;
+    @include transition(.4s ease-in-out);
+    cursor: pointer;
+
+    &:hover{
+        color: $navyblue;
+        @include transition(.4s ease-in-out);
+    }
+}
+
+
+
+
+
+
+
+
+

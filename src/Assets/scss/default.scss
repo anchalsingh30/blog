@@ -1,0 +1,149 @@
+@import "_config.scss";
+
+header{
+    position: relative;
+    display: block;
+    width: 100%;
+    //background-image:'url(${./src/images/bali1.png})' ;
+    background: $navyblue;
+    color: $white;
+    height: 110px;
+
+    .title{
+        position: absolute;
+        top: 50%; //left: 15px;
+        padding-left: 45%;
+        font-size: 30px;
+        @include translateY(-50%);
+
+    }
+    
+
+}
+
+.TextStyles{
+    text-Align: center;
+    font-Weight: bold;
+    //font-style: italic;
+    font-Size: 20;
+    margin-top: 20px;
+    text-decoration-line: underline;
+}
+
+.date{
+    font-weight: bold;
+    font-size: 20px; 
+    text-align: left;
+
+}
+
+.summary{
+    //font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.paragraph{
+    //font-weight: bold;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+
+.frontImage{
+    border-radius: 50%;
+    border: 1px solid #ddd;
+
+
+    &:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+}
+
+.blogImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 10px;
+}
+
+footer{
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    background: $lightblue;
+    color: $white;
+    height: 80px;
+
+    .title1{
+        position: relative;
+        top: 50%; //left: 15px;
+        padding-left: 45%;
+        font-size: 30px;
+        @include translateY(-50%);
+
+    }
+
+}
+
+.navigation{
+    position: relative;
+    float: right;
+    font-size: 20px;
+    background: $black;
+    height: 900px;
+    width: 5%;
+    margin-left: 700px;
+}
+
+.container-fluid{
+    position: relative;
+    display: block;
+    width: 100%;
+    color: $black; 
+    scroll-behavior: auto;   
+    background-color: $grey;
+}
+
+.split {
+    position: absolute;
+    z-index: 100;
+    top: 145px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y : hidden;
+    padding-top: 10px;
+}
+
+
+.left {
+    left: 1;
+    height: 80%;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+.right {
+    right: 0;
+    height: 80%;
+    width: 19%;
+    background-color: #ffffff;
+}
+
+ul{
+    text-align: left;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+
