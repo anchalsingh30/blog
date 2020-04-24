@@ -8,6 +8,9 @@ Please follow the steps to run the project:
 1. install git/VSC
 2. clone or download the project on local machine
 3. open the project using any IDE
-4. Go to terminal
+4. open terminal
+5. install npm
+
+Run the following command:
 5. npm install
 6. npm start
