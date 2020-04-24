@@ -24,8 +24,8 @@ class Blog3 extends Component{
                     </div>
                     <div className="split right">
                         <div className="centered">
-                            <h3 className = "TextStyles"><Link to="/Mainpage">Home</Link></h3>
-                            <h3 className = "TextStyles"><Link to="/Mainpage">Home</Link></h3>
+                            
+                            <h3 className = "TextStyles"><Link to="/">Home</Link></h3>
                             <h3>Top Tweets</h3>
                                 <TwitterTimelineEmbed
                                 sourceType="list"
