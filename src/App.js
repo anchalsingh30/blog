@@ -24,7 +24,7 @@ class App extends Component{
       <Router>
         <div className="App">
           <Header />
-            <Route exact path='/Mainpage' component={Mainpage} />
+            <Route exact path='/' component={Mainpage} />
             <Route exact path='/Navigationbar' component={Navigationbar} />
             <Route exact path='/Blog1' component={Blog1} />
             <Route exact path='/Blog2' component={Blog2} />

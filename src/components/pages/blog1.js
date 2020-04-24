@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import{Link} from 'react-router-dom';
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
 //import bali from "/Users/anchalsingh/Desktop/Project/blog/src/components/pages/images/bali.png";
 
 class Blog1 extends Component{
@@ -23,20 +25,14 @@ class Blog1 extends Component{
             </div>
             <div className="split right">
                 <div className="centered">
-                    <h3 className = "TextStyles"><Link to="/Mainpage">Home</Link></h3>
-                    <h3>Top Blogs of The Month.</h3>
-                        <br/>
-                        <ul>
-                            <li>
-                                <Link to="/Blog1">Meet Kate</Link>
-                            </li>
-                            <li>
-                                <Link to="/Blog2">Paul Blair</Link>
-                            </li>
-                            <li>
-                                <Link to="/Blog3">David Haffmann</Link>
-                            </li>
-                        </ul>
+                    <h3 className = "TextStyles"><Link to="/">Home</Link></h3>
+                    <h3>Top Tweets</h3>
+                        <TwitterTimelineEmbed
+                        sourceType="list"
+                            ownerScreenName="palafo"
+                            slug="breakingnews"
+                            options={{height: 800}}
+                        />
                 </div>
             </div>
       </div>
