@@ -4,6 +4,9 @@ This project is a 'Blog Post' where there are three blogs mentioned on the main 
 This project is designed using React, Node.js, SAAS and gulp.
 
 ## How to Run
-Please follow the two steps to run the project:
-1. npm install
-2. npm start
+Please follow the steps to run the project:
+1. install git/VSC
+2. clone or download the project on local machine
+3. open the project using any IDE
+4. npm install
+5. npm start
